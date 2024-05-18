@@ -6,7 +6,7 @@ function getFullName(firstName, lastName) {
   return `${fn} ${ln}`;
 }
 
-function capitalize(str = '') {
+function capitalize(str) {
   if (str.length === 0) return '';
 
   const firstLetter = str.trim()[0].toUpperCase();
